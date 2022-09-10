@@ -1,19 +1,26 @@
 @charset "UTF-8";
 
+*{
+  margin: 0px;
+}
 body{
-position: relative;
+  position: relative;
 margin: 0;
 background: #060d17;
 color: #d5d5d5;
 }
 
-div{
-    max-width: 1752px;
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-  img{
-height: 18px;
-width: 107px;
-margin-top: 19px;
-  }
+img{
+  
+}
+header{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+}
+
+main{
+  background-color: blue;
+  height: 330px;
+  width: 330px;
+}
