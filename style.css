@@ -2,25 +2,81 @@
 
 *{
   margin: 0px;
-}
-body{
-  position: relative;
-margin: 0;
-background: #060d17;
-color: #d5d5d5;
+  padding: 0px;
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
+body{
+  background-color: rgb(88, 46, 128);
+}
+
+header
+    {
+        display:         flex;
+        justify-content: center;
+        
+    }
+
+    
 img{
+  width: 256px;
+  height: 275px;
+  border-radius: 10px;
+  filter: brightness(20%);
+  
+  
   
 }
-header{
-  background-color: white;
-  height: 50px;
-  width: 50px;
+
+img:hover{
+  filter: brightness(100%);
+  width: 512px;
+  height: 550px;
+  transition: 2s;
+  
+  }
+  
+  img.serie04:hover:after{
+    width: 256px;
+    height: 275px;
+    transition:step-end 2s;
+    
+  }
+
+
+
+div.serie01 > h1{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 15px;
+
 }
 
-main{
-  background-color: blue;
-  height: 330px;
-  width: 330px;
-}
+div.serie02 > h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+  
+  }
+  
+  div.serie03 > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    
+    }
+
+    div.serie04 > h1{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 15px;
+            
+      }
+
+      a.netflix {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+      }
