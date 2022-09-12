@@ -16,3 +16,13 @@ display: flex;
 justify-content: center;
 
   }
+
+  video.tokyo2{
+    width: 100%;
+    top: 400px;
+    left: 0;
+    z-index: 100;
+    min-height: 100%;
+  }
+
+ 
