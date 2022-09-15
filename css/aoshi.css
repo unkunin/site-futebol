@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header{
+    background-color: #703db3;
+    color: white;
+    width: 100vh;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #491561;
+}
+
+.box{
+    display: flex ;
+    background-color: darkslategray;
+    width: 100vh;
+}
+
+.card{
+    background-color: crimson;
+    width: 300vh;
+}
+
+#img-01{
+    background-image: url(../imagem/ao-ashi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sinopse{
+    background-color: darksalmon;
+   
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.listaep{
+    list-style: none;
+    columns: 2;
+    padding: 5px;
+}
+
+
+
+.numeroep{
+    list-style: none;
+   
+}
+
+.sinopse-of{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 4px;
+}
+
+li{
+    padding: 2px 9px;
+    font-size: 10px;
+}
+    footer{
+        color: white;
+        background-color: #3db36b;
+        border-top: 3px #2a7948;
+        text-align: center;
+        padding: 15px;
+        font-size: 8px;
+        width: 100vh;
+        height: 50px;
+    }
+
